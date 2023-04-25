@@ -18,7 +18,7 @@ todoForm.addEventListener('submit', event => {
     addTodo();
 });
 
-todoList.addEventListener('click', toggleTodoCompletion);
+todoList.addEventListener('click', toggleTodoComplete);
 
 deleteCompletedBtn.addEventListener('click', deleteCompletedTodos);
 

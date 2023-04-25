@@ -1,3 +1,5 @@
+const todoInput = document.querySelector('#todo-input');
+
 export function addTodo() {
     // Get the value of the input
     const todoText = todoInput.value.trim();
