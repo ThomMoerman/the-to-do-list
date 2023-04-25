@@ -1,4 +1,8 @@
+// Define variables
 const todoInput = document.querySelector('#todo-input');
+const todoList = document.querySelector('#todo-list');
+
+import { saveTodos } from "./saveToDo.js";
 
 export function addTodo() {
     // Get the value of the input

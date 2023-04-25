@@ -4,12 +4,13 @@ const todoInput = document.querySelector('#todo-input');
 const todoList = document.querySelector('#todo-list');
 const deleteCompletedBtn = document.querySelector('#delete-completed-btn');
 
-import { addTodo } from "./modules/addToDo";
-import { loadTodos } from "./modules/loadToDo";
-import { saveTodos } from "./modules/saveToDo";
-import { toggleTodoComplete, deleteCompletedTodos } from "./modules/completed";
+import { addTodo } from "./modules/addToDo.js";
+import { loadTodos } from "./modules/loadToDo.js";
+import { saveTodos } from "./modules/saveToDo.js";
+import { toggleTodoComplete, deleteCompletedTodos } from "./modules/completed.js";
 
 // Load the todos items from the local storage on page load
+saveTodos();
 loadTodos();
 
 // Add event listeners

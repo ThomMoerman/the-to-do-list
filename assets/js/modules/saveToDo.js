@@ -1,3 +1,5 @@
+export const todoList = document.querySelector('#todo-list');
+
 export function saveTodos() {
     // Get all the todo items
     const todos = todoList.querySelectorAll('li');
