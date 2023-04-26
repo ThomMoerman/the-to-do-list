@@ -1,5 +1,7 @@
+import { saveTodos } from "./saveToDo.js";
+
 export function toggleTodoComplete(event) {
-    // Check if the clicked element is a checkbox
+
     if (event.target.type === 'checkbox') {
         // Get the parent li element
         const li = event.target.parentNode;

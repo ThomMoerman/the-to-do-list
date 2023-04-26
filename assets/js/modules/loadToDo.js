@@ -1,3 +1,8 @@
+// Define variables
+const todoList = document.querySelector('#todo-list');
+
+import { saveTodos } from "./saveToDo.js";
+
 export function loadTodos() {
     // Get the todos array from the local storage
     const todos = JSON.parse(localStorage.getItem('todos'));
