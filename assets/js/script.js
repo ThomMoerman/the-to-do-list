@@ -8,7 +8,7 @@ import { loadTodos } from "./modules/loadToDo.js";
 import { toggleTodoComplete, deleteCompletedTodos } from "./modules/completed.js";
 import { handleEditClick } from "./modules/handleEditClick.js";
 
-// Load the todos items from the local storage on page load
+// Load the todos items from the local storage when page is load
 loadTodos();
 
 // Add event listeners
