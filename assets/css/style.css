@@ -162,4 +162,20 @@ button#delete-completed-btn {
   padding: 5px;
 }
 
+dialog {
+  width: 375px;
+  height: 150px;
+  text-align-last: center;
+}
+dialog .dialog-form {
+  margin-top: 45px;
+}
+dialog .dialog-label {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+dialog .dialog-input {
+  margin-right: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
